@@ -1,0 +1,9 @@
+$ gcc udpclient.c
+$ ./a.out
+Enter message: hii, my name is rudrakshi
+Echo from server: hii, my name is rudrakshi
+Enter message: how are u???
+Echo from server: how are u???
+Enter message: what you do??
+Echo from server: what you do??
+Enter message:

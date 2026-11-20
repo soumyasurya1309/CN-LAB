@@ -1,0 +1,43 @@
+$ gedit cn8.c
+$ gcc cn8.c
+$ ./a.out
+Sliding Window Protocol Simulation (Go-Back-N)
+Enter number of frames to send (max 50): 7
+Enter window size: 2
+
+Sender window: [0] [1]
+Sending frames...
+Sent frame: 0
+Sent frame: 1
+Simulating receiver...
+Receiver received: [0] [1]
+
+Did all frames receiver correctly? (y/n): y
+
+Sender window: [2] [3]
+Sending frames...
+Sent frame: 2
+Sent frame: 3
+Simulating receiver...
+Receiver received: [2] [3]
+
+Did all frames receiver correctly? (y/n): y
+
+Sender window: [4] [5]
+Sending frames...
+Sent frame: 4
+Sent frame: 5
+Simulating receiver...
+Receiver received: [4] [5]
+
+Did all frames receiver correctly? (y/n): y
+
+Sender window: [6]
+Sending frames...
+Sent frame: 6
+Simulating receiver...
+Receiver received: [6]
+
+Did all frames receiver correctly? (y/n): y
+
+All frames sent!

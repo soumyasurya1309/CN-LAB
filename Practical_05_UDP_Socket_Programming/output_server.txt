@@ -1,0 +1,6 @@
+$ gcc udpserver.c
+$ ./a.out
+UDP Echo Server listening on port 10055...
+Received: hii, my name is rudrakshi
+Received: how are u???
+Received: what you do??

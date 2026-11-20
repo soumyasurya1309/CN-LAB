@@ -1,0 +1,13 @@
+$ gcc client.c -o client
+$ ./client
+Enter message: Hey!!!!!! TODAY is 11th of August 2026.
+Echo from server: Hey!!!!!! TODAY is 11th of August 2026.
+Enter message: This is a demo of TCP client and server communication.
+Echo from server: This is a demo of TCP client and server communication.
+Enter message: It demonstrates how Socket programming works
+Echo from server: It demonstrates how Socket programming works
+Enter message: This is a client-server communication
+Echo from server: This is a client-server communication
+Enter message: BYEEEEEEE!
+Echo from server: BYEEEEEEE!
+Enter message:

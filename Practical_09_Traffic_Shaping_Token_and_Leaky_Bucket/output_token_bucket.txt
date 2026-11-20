@@ -1,0 +1,24 @@
+$ gedit token.c
+$ gcc token.c
+$ ./a.out
+Token Bucket Algorithm Simulation
+Enter bucket size (capacity): 10
+Enter token generation rate: 4
+Enter number of packets (time units): 3
+
+Time unit 1:
+Enter number of packets to send: 3
+Packets sent: 3
+Tokens left: 1
+
+Time unit 2:
+Enter number of packets to send: 6
+Only 5 tokens available, packets sent: 5, packets dropped: 1
+Tokens left: 0
+
+Time unit 3:
+Enter number of packets to send: 7
+Only 4 tokens available, packets sent: 4, packets dropped: 3
+Tokens left: 0
+
+Simulation complete.

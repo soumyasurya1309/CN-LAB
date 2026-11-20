@@ -1,0 +1,8 @@
+$ gcc server.c -o server
+$ ./server
+TCP Echo Server listening on port 10012...
+Received: Hey!!!!!! TODAY is 11th of August 2026.
+Received: This is a demo of TCP client and server communication.
+Received: It demonstrates how Socket programming works
+Received: This is a client-server communication
+Received: BYEEEEEEE!

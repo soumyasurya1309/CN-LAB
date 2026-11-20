@@ -1,0 +1,24 @@
+$ gedit leaky.c
+$ gcc leaky.c
+$ ./a.out
+Leaky Bucket Algorithm Simulation
+Enter bucket size (capacity): 10
+Enter outgoing rate: 4
+Enter number of packets (time units): 3
+
+Time unit 1:
+Enter number of incoming packets: 3
+Packets sent: 3
+Packets remaining in bucket: 0
+
+Time unit 2:
+Enter number of incoming packets: 8
+Packets sent: 4
+Packets remaining in bucket: 4
+
+Time unit 3:
+Enter number of incoming packets: 2
+Packets sent: 4
+Packets remaining in bucket: 2
+
+Simulation complete.
